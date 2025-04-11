@@ -29,6 +29,10 @@ La solución adopta un enfoque modular con componentes desacoplados que operan c
                                                   └───────────────┘        └───────────────┘        └───────────────┘
 ```
 
+## Capturas del entorno
+
+- [Ver documentación detallada →](https://github.com/poacosta/esesa-cloud-exercise/tree/main/capturas-de-pantalla)
+
 ## Componentes Principales
 
 El sistema está compuesto por módulos especializados, cada uno documentado exhaustivamente en su correspondiente README:
