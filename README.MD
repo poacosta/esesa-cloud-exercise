@@ -33,7 +33,7 @@ La solución adopta un enfoque modular con componentes desacoplados que operan c
 
 El sistema está compuesto por módulos especializados, cada uno documentado exhaustivamente en su correspondiente README:
 
-### 1. Carga de Datos a Blob Storage (`[./esesa-posts-to-blob-storage/README.md]`)
+### 1. Carga de Datos a Blob Storage (`[./esesa-instagram-posts-to-blob-storage/README.md]`)
 
 Este componente gestiona la extracción y carga inicial de datos desde archivos locales hacia Azure Blob Storage, implementando:
 
@@ -42,9 +42,9 @@ Este componente gestiona la extracción y carga inicial de datos desde archivos 
 - Monitorización detallada del proceso de carga
 - Control granular de parámetros de ejecución
 
-[Ver documentación detallada →](./esesa-posts-to-blob-storage/README.md)
+[Ver documentación detallada →](./esesa-instagram-posts-to-blob-storage/README.md)
 
-### 2. Procesamiento Serverless (`[./posts-from-blob-to-cosmos/README.md]`)
+### 2. Procesamiento Serverless (`[./instagram-posts-from-blob-to-cosmos/README.md]`)
 
 Esta Azure Function implementa un proceso de ETL optimizado que transforma los datos almacenados en Blob Storage y los persiste en Cosmos DB, proporcionando:
 
@@ -52,7 +52,7 @@ Esta Azure Function implementa un proceso de ETL optimizado que transforma los d
 - Procesamiento por lotes con barreras de error aisladas
 - Control adaptativo de carga y elasticidad computacional
 
-[Ver documentación detallada →](./posts-from-blob-to-cosmos/README.md)
+[Ver documentación detallada →](./instagram-posts-from-blob-to-cosmos/README.md)
 
 ### 3. Análisis con PowerBI (En desarrollo)
 
