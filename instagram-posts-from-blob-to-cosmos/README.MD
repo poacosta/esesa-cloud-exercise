@@ -12,7 +12,7 @@ Esta Azure Function implementa un proceso de ETL (Extracción, Transformación y
 │   Storage      │────▶│  (Procesador)   │────▶│  (Destino)     │
 │ (posts/*.json) │     │ Timer-Triggered │     │ (database/     │
 └────────────────┘     └─────────────────┘     │    posts)      │
-         │                                      └────────────────┘
+         │                                     └────────────────┘
          │
          ▼
 ┌────────────────┐
