@@ -58,13 +58,15 @@ Esta Azure Function implementa un proceso de ETL optimizado que transforma los d
 
 [Ver documentación detallada →](https://github.com/poacosta/esesa-cloud-exercise/tree/main/instagram-posts-from-blob-to-cosmos)
 
-### 3. Análisis con PowerBI (En desarrollo)
+### 3. Análisis con PowerBI
 
 Este componente proporciona capacidades avanzadas de visualización y análisis sobre los datos procesados en Cosmos DB:
 
 - Dashboards interactivos para análisis multidimensional
 - Métricas de engagement y análisis contextual
 - Segmentación dinámica y clasificación automatizada
+
+- [Ver documentación detallada →](https://github.com/poacosta/esesa-cloud-exercise/tree/main/powerbi)
 
 ## Fundamentos Tecnológicos
 
